@@ -150,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of Test"
             }
+          },
+          {
+            "id": "bf495734b10f7d6e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 689.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,11 +175,15 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b737a44d2e76e181",
+  "active": "bf495734b10f7d6e",
   "lastOpenFiles": [
+    "upload_to_r2.py",
+    "upload_blog_post.py",
+    "New folder",
     "Test.md"
   ]
 }
