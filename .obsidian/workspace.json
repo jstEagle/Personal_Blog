@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Second Test.md",
+                "file": "posts/Second Test.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Second Test.md",
+                "file": "posts/Second Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Second Test.md",
+                "file": "posts/Second Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Second Test.md",
+                "file": "posts/Second Test.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -179,10 +179,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf495734b10f7d6e",
+  "active": "68896aa697e3f540",
   "lastOpenFiles": [
-    "Second Test.md",
-    "Test.md",
+    "posts",
+    "posts/Second Test.md",
+    "posts/Test.md",
     "upload_to_r2.py",
     "upload_blog_post.py",
     "New folder"
