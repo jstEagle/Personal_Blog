@@ -6,7 +6,6 @@ Some test text in here
 #### Heading 4
 
 $$y = mx + c$$
-![](RobotALF.jpg)
 
 ____
 ```javascript
