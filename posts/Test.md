@@ -6,5 +6,5 @@ Some test text in here
 #### Heading 4
 
 $$y = mx + c$$
-![[Screenshot 2024-07-21 212928.png]]
+![](jpegPIA15415.jpg)
 ____
