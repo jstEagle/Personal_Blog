@@ -1,0 +1,147 @@
+/* General Reset and Layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e0e0e0;
+  background-color: #2f3437;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Light Theme (Optional) */
+@media (prefers-color-scheme: light) {
+  body {
+    color: #333;
+    background-color: #f9f9f9;
+  }
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  margin: 1em 0 0.5em;
+  font-weight: 600;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.75em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.25em; }
+
+/* Light theme heading colors */
+@media (prefers-color-scheme: light) {
+  h1, h2, h3, h4, h5, h6 {
+    color: #222;
+  }
+}
+
+/* Paragraphs and Text */
+p {
+  margin-bottom: 1em;
+}
+
+/* Links */
+a {
+  color: #8ab4f8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+/* Code Blocks */
+pre, code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  background-color: #25292c;
+  border-radius: 4px;
+}
+pre {
+  padding: 10px;
+  overflow-x: auto;
+}
+code {
+  padding: 2px 4px;
+}
+
+/* Inline Code */
+:not(pre) > code {
+  background-color: #3a4044;
+  padding: 2px 6px;
+}
+
+/* Light theme code blocks */
+@media (prefers-color-scheme: light) {
+  pre, code {
+    background-color: #f0f0f0;
+  }
+  :not(pre) > code {
+    background-color: #e0e0e0;
+  }
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #8ab4f8;
+  padding-left: 15px;
+  color: #b0b0b0;
+  margin: 1em 0;
+}
+
+/* Horizontal Rule */
+hr {
+  border: none;
+  border-top: 1px solid #4a4f52;
+  margin: 1.5em 0;
+}
+
+/* Math (for equations like LaTeX) */
+.math {
+  font-family: "Latin Modern Math", serif;
+  color: #e0e0e0;
+  margin: 1em 0;
+}
+
+/* Light theme adjustments */
+@media (prefers-color-scheme: light) {
+  blockquote {
+    border-left-color: #4a90e2;
+    color: #555;
+  }
+  hr {
+    border-top-color: #d0d0d0;
+  }
+  .math {
+    color: #333;
+  }
+}
+
+/* Container for Markdown Content */
+.markdown-body {
+  padding: 20px;
+  background-color: #2f3437;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: light) {
+  .markdown-body {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+}

@@ -9,3 +9,9 @@ $$y = mx + c$$
 ![](RobotALF.jpg)
 
 ____
+```javascript
+export async function hello(string) {
+	console.log(string)
+}
+```
+```
