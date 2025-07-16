@@ -13,4 +13,3 @@ export async function hello(string) {
 	console.log(string)
 }
 ```
-```
