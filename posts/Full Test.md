@@ -6,6 +6,8 @@ tags: ["Programming", "JavaScript", "Python", "Web Development"]
 ---
 In the world of software development, especially in web development, the ability to perform tasks asynchronously is not just a fancy feature—it's a necessity. Users expect applications to be fast, responsive, and smooth. Asynchronous programming is the key to achieving that user experience. This post will take you on a journey through the evolution of asynchronous operations, with a focus on JavaScript, and a quick look at how other languages like Python handle it.
 
+![](screenshot1.png)
+
 ## The "Why": Understanding the Need for Asynchronicity
 
 Imagine you're in a coffee shop. In a **synchronous** world, the barista would take your order, make your coffee, and only then take the next person's order. Everyone else has to wait. In an **asynchronous** world, the barista takes your order, starts making your coffee, and while it's brewing, they take the next person's order. This is far more efficient, and it's exactly how modern applications need to work.
