@@ -8,7 +8,7 @@ In the world of software development, especially in web development, the ability
 
 ![](barista1.png)
 
-![Link](https://t3.chat/)
+[Link](https://t3.chat/)
 
 ## The "Why": Understanding the Need for Asynchronicity
 
