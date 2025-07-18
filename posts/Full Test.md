@@ -8,6 +8,8 @@ In the world of software development, especially in web development, the ability
 
 ![](barista1.png)
 
+![Link](https://t3.chat/)
+
 ## The "Why": Understanding the Need for Asynchronicity
 
 Imagine you're in a coffee shop. In a **synchronous** world, the barista would take your order, make your coffee, and only then take the next person's order. Everyone else has to wait. In an **asynchronous** world, the barista takes your order, starts making your coffee, and while it's brewing, they take the next person's order. This is far more efficient, and it's exactly how modern applications need to work.
