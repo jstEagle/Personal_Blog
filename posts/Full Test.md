@@ -22,6 +22,9 @@ Operations like fetching data from an API, reading a file from a disk, or queryi
 
 JavaScript, being the backbone of the modern web, has a rich history when it comes to handling asynchronous tasks.
 
+> [!info]
+> Interesting stuff in here
+
 ### 1. The Age of Callbacks
 
 In the early days, callbacks were the primary way to handle asynchronous operations. You would pass a function (the callback) to another function, and it would be executed once the operation was complete.

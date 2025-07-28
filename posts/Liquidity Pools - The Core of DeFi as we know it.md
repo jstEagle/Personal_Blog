@@ -7,4 +7,4 @@ tags:
   - Blockchain
   - Educational
 ---
-A lot of DeFi protocols or "tools" as you might call them can seem very futuristic and most of all **very** complicated and 
+A lot of DeFi protocols or "tools" as you might call them can seem very futuristic and most of all **very** complicated. 
