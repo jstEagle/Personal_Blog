@@ -12,6 +12,8 @@ In the world of software development, especially in web development, the ability
 
 ## The "Why": Understanding the Need for Asynchronicity
 
+[2. The Rise of Promises](#2.%20The%20Rise%20of%20Promises)
+
 Imagine you're in a coffee shop. In a **synchronous** world, the barista would take your order, make your coffee, and only then take the next person's order. Everyone else has to wait. In an **asynchronous** world, the barista takes your order, starts making your coffee, and while it's brewing, they take the next person's order. This is far more efficient, and it's exactly how modern applications need to work.
 
 Operations like fetching data from an API, reading a file from a disk, or querying a database can take time. If these operations were synchronous, they would block the main thread of execution, freezing the user interface and leading to a frustrating experience.
