@@ -7,4 +7,4 @@ tags:
   - Blockchain
   - Educational
 ---
-Traditional Finance (TradFi) has the concept of an order book. It's not a very difficult idea to grasp. Just a single central "place" commodities or assets are traded through. It allows both buyers and sellers to swap something
+A lot of DeFi protocols or "tools" as you might call them can seem very futuristic and most of all **very** complicated and 
