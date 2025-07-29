@@ -9,4 +9,11 @@ tags:
 ---
 A lot of Decentralized finance (DeFi) protocols or infrastructure can seem very futuristic and most of all **very** complicated. On the one hand this is because they are often a fusion of traditional finance principles along with math and computer science. But on the other hand, it's also easier to get people to invest into your coin when you call it a *"Algorithmic Stablecoin with Seigniorage-Based Elastic Supply"* instead of *"When price go up, we make more coins. When price go down, we destroy more coins."*
 
-I believe that all these financial tools should be available to everyone at any time. But I also believe that everyone using these tools should at least have some basic intuition of how they work. So here is the first entry in a series articles
+This article is meant to build intuition and build up the understanding to help demystify Automatic Market Makers (AMMs) also known as Liquidity Pools (LPs), the building block of DeFi as we know it. To do that we will cover the following:
+- What is a Market Maker?
+- What is a LP?
+- What makes LPs better than a traditional Market Maker?
+- What are some different kinds of LPs and how do they work?
+	- Standard LP
+	- Concentrated LP (CLMM)
+	- Dynamic LP (Constant Product AMM)
