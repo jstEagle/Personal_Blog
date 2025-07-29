@@ -24,3 +24,7 @@ In traditional finance (TradFi) there are 2 main ways in which assets get traded
 Order books are where it gets interesting. An order book is just a record of all the [limit orders|Limit orders are buy or sell orders set to execute at a specific price or better] that are open. A trader that puts in an order on either side is called a **maker** and a trader that trades against that order is called a **taker**.
 
 ![](orderbooksimple.svg)
+Above is a simplified example of what a theoretical order book for Solana (SOL) might look like. Note that the *real* price of SOL at this time would be somewhere between $150 and $151. This is because an order book has no indication of what the actual price of SOL is, it only contains a list of orders to execute if the price is at the limit or [better| In this context "better" means that for **buy** side orders, the price is at or lower than the limit. And for **sell** side orders the price is at or above the limit].
+
+A Market Maker is a trader that places both buy and sell side limit orders within a small range of where the *real* price is. This range is called the [spread|Spread is defined as the **highest bid price** and the **lowest ask price** in an order book
+$$\text{Spread} = \text{Ask Price} - \text{Bid Price}$$also called the **cost of immediate execution**]
