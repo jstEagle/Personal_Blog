@@ -23,3 +23,4 @@ In traditional finance (TradFi) there are 2 main ways in which assets get traded
 
 Order books are where it gets interesting. An order book is just a record of all the [limit orders|Limit orders are buy or sell orders set to execute at a specific price or better] that are open. A trader that puts in an order on either side is called a **maker** and a trader that trades against that order is called a **taker**.
 
+![](orderbooksimple.svg)
