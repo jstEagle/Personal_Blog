@@ -21,7 +21,7 @@ This article is meant to build intuition and build up the understanding to help 
 ### Market Makers
 In traditional finance (TradFi) there are 2 main ways in which assets get traded. Over the Counter (OTC) or through an Order Book. OTC orders are pretty self explanatory. Someone makes an offer to either buy or sell and *usually* anyone can accept that offer and provide the other side of the trade.
 
-Order books are where it gets interesting. An order book is just a record of all the [limit orders|Limit orders are buy or sell orders set to execute at a specific price or better] that are open. A trader that puts in an order on either side is called a **maker** and a trader that trades against that order is called a **taker**.
+Order books are where it gets interesting. An order book is just a record of all the [limit orders|Limit orders are buy or sell orders set to execute at a specific price or better] [this|this is a definition] that are open. A trader that puts in an order on either side is called a **maker** and a trader that trades against that order is called a **taker**.
 
 ![](orderbooksimple.svg)
 Above is a simplified example of what a theoretical order book for Solana (SOL) might look like. Note that the *real* price of SOL at this time would be somewhere between 150 and 151. This is because an order book has no indication of what the actual price of SOL is, it only contains a list of orders to execute if the price is at the limit or [better|In this context "better" means that for **buy** side orders, the price is at or lower than the limit. And for **sell** side orders the price is at or above the limit].
