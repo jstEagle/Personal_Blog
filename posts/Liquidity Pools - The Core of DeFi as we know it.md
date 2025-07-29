@@ -29,4 +29,16 @@ Above is a simplified example of what a theoretical order book for Solana (SOL) 
 A Market Maker is a trader that places both buy and sell side limit orders within a small range of where the *real* price is. This range is called the [spread|Spread is defined as the highest bid price and the lowest ask price in an order book also called the cost of immediate execution]. This spread is what makes traditional market making profitable. Any trader who wants to sell SOL [spot|A Spot or Market Order is just an instruction to execute a trade for some amount of money at the best price immediately] will lose a small amount of money by not selling at the *real* price due to the spread of the market maker. This is called **slippage**.
 
 ![](orderbookhorizontal.svg)
-In our simple orderbook example, we can think of the price of SOL as this imaginary line that goes from 0 to $\infty$. And limit orders as buckets of [liquidity|Simply put: The amount of buy and sell volume available through limit orders at a time (I will elaborate on this more soon)] placed along the way. As these buckets of liquidity get emptied
+In our simple orderbook example, we can think of the price of SOL as this imaginary line that goes from 0 to $\infty$. And limit orders as buckets of [liquidity|Simply put: The amount of buy and sell volume available through limit orders at a time (I will elaborate on this more soon)] placed along the way. As these buckets of liquidity get emptied, takers (the active buyers or sellers) need to move further up and down the line to get their orders filled. Of course in reality market makers constantly replenish their offers to always give takers an offer while maintaining their spread. And so as price moves up and down depending on the supply and demand of either side, so does the order book.
+
+![](orderbookhorizontal2.svg)
+
+
+### Automatic Market Makers
+With the rise of DeFi and blockchain technology the first Decentralised Exchanges (DEXs) started to appear. But they had some key issues with their order books:
+1. **High gas fees** for orders
+2. **Slow execution** due to Ethereum block times
+3. **Front-Running risks** because pending orders were visible in the [mempool|This isn't important to the article, it just means that pending orders were visible to everyone else]
+As a result DEX trading was clunky, expensive, and illiquid.
+
+So in 2018 a breakthrough was made by the Uniswap team 
