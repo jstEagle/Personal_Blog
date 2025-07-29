@@ -21,4 +21,4 @@ This article is meant to build intuition and build up the understanding to help 
 ### Market Makers
 In traditional finance (TradFi) there are 2 main ways in which assets get traded. Over the Counter (OTC) or through an Order Book. OTC orders are pretty self explanatory. Someone makes an offer to either buy or sell and *usually* anyone can accept that offer and provider the other side of the trade.
 
-Order books are where it gets interesting. An order book is just a record of all the limit orders that are open. 
+Order books are where it gets interesting. An order book is just a record of all the [limit|Limit orders are xxxxx] orders that are open. 
