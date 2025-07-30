@@ -46,7 +46,7 @@ So in 2018 a breakthrough was made by the [Uniswap](https://app.uniswap.org/) te
 
 This is genius because it removes the need for *active* makers to support price, allows anyone to *passively* contribute to an asset pairs liquidity and it was fully on-chain and gas-efficient.
 
-
+![](constantproductammdiagram.svg)
 
 here is a somewhat simplified version of what an AMM looks like.
 
