@@ -43,3 +43,9 @@ As a result DEX trading was clunky, expensive, and illiquid.
 
 So in 2018 a breakthrough was made by the [Uniswap](https://app.uniswap.org/) team.
 > Instead of matching buyers and sellers, **let traders interact with a pool of assets using a pricing formula**
+
+This is genius because it removes the need for *active* makers to support price, allows anyone to *passively* contribute to an asset pairs liquidity and it was fully on-chain and gas-efficient.
+
+![](firstlpsimplediagram.svg)
+
+here is a somewhat simplified version of what an AMM looks like.
