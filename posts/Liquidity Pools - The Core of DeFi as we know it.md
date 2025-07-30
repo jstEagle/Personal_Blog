@@ -41,4 +41,4 @@ With the rise of DeFi and blockchain technology the first Decentralised Exchange
 3. **Front-Running risks** because pending orders were visible in the [mempool|This isn't important to the article, it just means that pending orders were visible to everyone else]
 As a result DEX trading was clunky, expensive, and illiquid.
 
-So in 2018 a breakthrough was made by the Uniswap team 
+So in 2018 a breakthrough was made by the [Uniswap](https://app.uniswap.org/) team 
