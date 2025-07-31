@@ -48,6 +48,9 @@ This is genius because it removes the need for *active* makers to support price,
 
 ![](constantproductammdiagram.svg)
 
-here is a somewhat simplified version of what an AMM looks like.
+Above is a visualisation for what a simple **constant product AMM** looks like. Don't worry, it looks *mathy* but it's really not that bad. A **constant product AMM** is simply a [pool|Pools are represented on-chain in various different fashions but that isn't relevant to the scope of this article] that keeps one simple rule. The amount of token $X$ multiplied by the amount of token $Y$ is always a constant $K$. This just means that when a swap happens, the amount of the opposite token a user gets out of the swap is determined by this simple rule $X\times Y = K$. This constant $K$ is just a measure of how much liquidity there is in the pool. So as more tokens get added, the amount the price changes by the same amount of tokens swapped changes.
+> This is why you often hear that you should be aware of tokens with low liquidity. As this means that a trade of \$100 will a token with low liquidity much more than a token with a lot of liquidity
+
+$
 
 ![](firstlpsimplediagram.svg)
