@@ -42,6 +42,7 @@ With the rise of DeFi and blockchain technology the first Decentralised Exchange
 As a result DEX trading was clunky, expensive, and illiquid.
 
 So in 2018 a breakthrough was made by the [Uniswap](https://app.uniswap.org/) team.
+
 > Instead of matching buyers and sellers, **let traders interact with a pool of assets using a pricing formula**
 
 This is genius because it removes the need for *active* makers to support price, allows anyone to *passively* contribute to an asset pairs liquidity and it was fully on-chain and gas-efficient.
@@ -53,6 +54,9 @@ Above is a visualisation for what a simple **constant product AMM** looks like. 
 This is why you often hear that you should be aware of tokens with low liquidity. As this means that a trade of 100 tokens for example, will affect a token with low liquidity much more than a token with a lot of liquidity
 
 > *Note: the amount that the price of the tokens changes is only affected by the amount of tokens traded, not by the dollar value. So a trade of 1000 SOL for example might have the same proportional affect as the trade of 1000 USDC if you had two pools with the same liquidity and ratio of tokens*
+
+Another key difference between this kind of AMM and a traditional order book is that an AMM has **a set value
+
 
 
 
