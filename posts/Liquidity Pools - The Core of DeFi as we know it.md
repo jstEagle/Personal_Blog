@@ -55,9 +55,17 @@ This is why you often hear that you should be aware of tokens with low liquidity
 
 > *Note: the amount that the price of the tokens changes is only affected by the amount of tokens traded, not by the dollar value. So a trade of 1000 SOL for example might have the same proportional affect as the trade of 1000 USDC if you had two pools with the same liquidity and ratio of tokens*
 
-Another key difference between this kind of AMM and a traditional order book is that an AMM has **a set value
+Another key difference between this kind of AMM and a traditional order book is that an AMM has **a set value of what the real price is at any ratio of tokens**. However, we also have a problem... how are liquidity providers (the market makers) making their money? Having your money locked up in a liquidity pool can incur both [opportunity cost|The theoretical value of the next best investment you give up when making a choice] and [impermanent loss|The temporary loss in value an LP experiences when the price of tokens in a liquidity pool diverges from their original price due to market movements. (This will be explained further)]. The answer, trading fees. Every trade made through a pool is charged a percentage fee. Usually in equal parts of the two tokens provided in the pool. *Now most pools have very low fees. Usually less than `0.5%`. Some more modern liquidity pool providers also allow for automatic adjusting of fees. So during periods of high volume or high volatility, fees can increase to offset the additional impermanent loss that may be incurred.*
 
+![](Untitled-2025-04-27-1540.svg)
 
+### Modern AMMs
+The original Uniswap model was revolutionary and completely changes the DeFi landscape. But since 2018, some improvements have been made.
+
+##### DLMMs and CLMMs
+These are some terms you might have seen if you frequent Solana DeFi on platforms like [Jupiter](https://jup.ag/), [Meteora](https://www.meteora.ag/), [Orca](https://www.orca.so/) or pretty much any other platform that revolves around trading tokens.
+
+**CLMM** stands for **Concentrated Liquidity Market Maker**. Again, sounds very complicated. But isn't actually. Before, we were thinking about the price of SOL moving up and down an infinite range 
 
 
 
