@@ -14,7 +14,6 @@ This article is meant to build intuition and build up the understanding to help 
 - [Automatic Market Makers](#Automatic%20Market%20Makers)
 - [How do modern AMMs work?](Liquidity%20Pools%20-%20The%20Core%20of%20DeFi%20as%20we%20know%20it.md#Modern%20AMMs)
 - [Impermanent Loss](#Impermanent%20Loss)
-- 
 ______
 ### Market Makers
 In traditional finance (TradFi) there are 2 main ways in which assets get traded. Over the Counter (OTC) or through an Order Book. OTC orders are pretty self explanatory. Someone makes an offer to either buy or sell and *usually* anyone can accept that offer and provide the other side of the trade.
