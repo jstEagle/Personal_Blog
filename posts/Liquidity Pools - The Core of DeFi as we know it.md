@@ -55,6 +55,8 @@ This is why you often hear that you should be aware of tokens with low liquidity
 Another key difference between this kind of AMM and a traditional order book is that an AMM has **a set value of what the real price is at any ratio of tokens**. However, we also have a problem... how are liquidity providers (the market makers) making their money? Having your money locked up in a liquidity pool can incur both [opportunity cost|The theoretical value of the next best investment you give up when making a choice] and [impermanent loss|The temporary loss in value an LP experiences when the price of tokens in a liquidity pool diverges from their original price due to market movements. (This will be explained further)]. The answer, trading fees. Every trade made through a pool is charged a percentage fee. Usually in equal parts of the two tokens provided in the pool. *Now most pools have very low fees. Usually less than `0.5%`. Some more modern liquidity pool providers also allow for automatic adjusting of fees. So during periods of high volume or high volatility, fees can increase to offset the additional impermanent loss that may be incurred.*
 
 ![](Untitled-2025-04-27-1540.svg)
+
+Fees have to be set competitively as there are usually many pools that offer the same pair and platforms like Jupiter will automatically pick the best one for the user.
 _____
 ### Modern AMMs
 The original Uniswap model was revolutionary and completely changed the DeFi landscape. But since 2018, some improvements have been made.
@@ -69,6 +71,8 @@ These are some terms you might have seen if you frequent Solana DeFi on platform
 ![](firstlpsimplediagram.svg)
 
 As shown above, the _real price_ corresponds to the active tick—the one that currently holds a mix of both tokens. This helps explain why ticks on either side contain only one type of token. To the right of the active tick, the price is higher, so these ticks hold only base tokens; buyers must deposit quote tokens to purchase base tokens, pushing the price up. Conversely, to the left, the price is lower, and these ticks hold only quote tokens, as selling base tokens for quote pushes the price down.
+
+Providers can decide exactly what range of ticks they would like to deposit their tokens into. This means that you can deposit tokens into only the pools in a certain price interval. While the price is in this range you will earn fees. But once the price has left the range you will not earn anymore fees and your position will be fully converted into base or quote tokens depending on which side 
 
 **DLMM** stands for **Dynamic Liquidity Market Maker**. It is very similar to **CLMMs** but have some more fancy math and calculations built in to increase efficiency to both reduce fees and increase profits of makers. Below is a simple diagram to try communicate what liquidity might look like in a **DLMM**. The shape of the liquidity may change depending on the characteristics that are desired. If it is a [stable pair|A liquidity pool that contains two different stable coins tracking the same thing. i.e. USDC-USDT] or a memecoin pool all affect how the equations controlling the liquidity might be set up.
 
