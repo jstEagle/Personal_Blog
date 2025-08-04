@@ -73,3 +73,9 @@ These are some terms you might have seen if you frequent Solana DeFi on platform
 
 As shown above, the _real price_ corresponds to the active tick—the one that currently holds a mix of both tokens. This helps explain why ticks on either side contain only one type of token. To the right of the active tick, the price is higher, so these ticks hold only base tokens; buyers must deposit quote tokens to purchase base tokens, pushing the price up. Conversely, to the left, the price is lower, and these ticks hold only quote tokens, as selling base tokens for quote pushes the price down.
 
+**DLMM** stands for **Dynamic Liquidity Market Maker**. It is very similar to **CLMMs** but have some more fancy math and calculations built in to increase efficiency to both reduce fees and increase profits of makers. Bellow is a simple diagram to try communicate what liquidity might look like in a **DLMM**. The shape of the liquidity may change depending on the characteristics that are desired. If it is a [stable pair|A liquidity pool that contains two different stable coins tracking the same thing. i.e. USDC-USDT] or a memecoin pool all affect how the equations controlling the liquidity might be set up.
+
+![](DLMMdiagram.svg)
+
+**DLMMs** may also change how liquidity acts inside ticks. Basically instead of it being a set conversion in the tick where $Y + X = K$. The price inside a tick may behave as described earlier for constant product AMMs.
+
