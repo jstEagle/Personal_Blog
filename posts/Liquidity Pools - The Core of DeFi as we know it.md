@@ -7,7 +7,7 @@ tags:
   - Blockchain
   - Educational
 ---
-A lot of Decentralized finance (DeFi) protocols or infrastructure can seem very futuristic and most of all **very** complicated. On the one hand this is because they are often a fusion of traditional finance principles along with math and computer science. But on the other hand, it's also easier to get people to invest into your coin when you call it a *"Algorithmic Stablecoin with Seigniorage-Based Elastic Supply"* instead of *"When price go up, we make more coins. When price go down, we destroy more coins."*
+A lot of Decentralized finance (DeFi) protocols or infrastructure can seem very futuristic and most of all **very** complicated. On the one hand this is because they are often a fusion of traditional finance principles along with math and computer science. But on the other hand, it's also easier to get people to invest into your coin when you call it an *"Algorithmic Stablecoin with Seigniorage-Based Elastic Supply"* instead of *"When price go up, we make more coins. When price go down, we destroy more coins."*
 
 This article is meant to build intuition and build up the understanding to help demystify Automatic Market Makers (AMMs) also known as Liquidity Pools (LPs), the building block of DeFi as we know it. To do that we will cover the following:
 - What is a Market Maker?
@@ -60,14 +60,16 @@ Another key difference between this kind of AMM and a traditional order book is 
 ![](Untitled-2025-04-27-1540.svg)
 
 ### Modern AMMs
-The original Uniswap model was revolutionary and completely changes the DeFi landscape. But since 2018, some improvements have been made.
+The original Uniswap model was revolutionary and completely changed the DeFi landscape. But since 2018, some improvements have been made.
+
+> **Note:** When exploring Liquidity pools, we usually refer to the two tokens present in a pool as the base token and the quote token. The base token priced in the quote token. i.e. SOL (base token) is priced at 150 USDC (quote token).
 
 ##### DLMMs and CLMMs
 These are some terms you might have seen if you frequent Solana DeFi on platforms like [Jupiter](https://jup.ag/), [Meteora](https://www.meteora.ag/), [Orca](https://www.orca.so/) or pretty much any other platform that revolves around trading tokens.
 
-**CLMM** stands for **Concentrated Liquidity Market Maker**. Again, sounds very complicated. But isn't actually. Before, we were thinking about the price of SOL moving up and down an infinite range 
-
-
-
+**CLMM** stands for **Concentrated Liquidity Market Maker**. Again, sounds very complicated. But isn't actually. Before, we were thinking about the price of SOL moving up and down an infinite range. CLMMs think of prices the same way. However, instead of depositing liquidity into the entire range, it is deposited into buckets called [ticks|A tick is the smallest increment that the price can move in the liquidity pool. This may vary for different pools and providers]. Each tick to the left of the price in a pool would be filled with quote tokens and each tick to the right with base tokens.
 
 ![](firstlpsimplediagram.svg)
+
+As shown above, the _real price_ corresponds to the active tick—the one that currently holds a mix of both tokens. This helps explain why ticks on either side contain only one type of token. To the right of the active tick, the price is higher, so these ticks hold only base tokens; buyers must deposit quote tokens to purchase base tokens, pushing the price up. Conversely, to the left, the price is lower, and these ticks hold only quote tokens, as selling base tokens for quote pushes the price down.
+
