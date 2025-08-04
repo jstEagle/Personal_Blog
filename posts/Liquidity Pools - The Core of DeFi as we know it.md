@@ -94,6 +94,8 @@ Here is a table of what that would look like
 | 110          | 0.9                | 11                  |
 | 120          | 0.8                | 23                  |
 | 130          | 0.7                | 36                  |
+
+
 *Note: If Ray had just held 1 SOL, then at 130 his portfolio would be worth 130 USDC. But instead his portfolio is worth $130 \times 0.7 + 36 = 127$ USDC.*
 
 Looking at Rays strategy we can see that he does not make as much profit as he could have made if he had just HODLed his **SOL** until **130 USDC**. Impermanent Loss in liquidity pools works in a similar way. If Ray had deposited **100 USDC** worth of **SOL** into a liquidity pool, then his **SOL** would have been converted into **USDC** incrementally as the price increased. Each tick his position had filled with **SOL** now contains **USDC** meaning that while he might still be in profit, he is not in as much profit as he *could* have been.... and that's just no fun. However, if the price of **SOL** goes back down to **100 USDC** then all those *impermanently* converted tokens get turned back into **SOL** and he has **1 SOL** again. This phenomenon is what we call **Impermanent Loss**.
