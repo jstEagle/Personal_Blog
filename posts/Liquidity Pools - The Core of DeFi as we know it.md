@@ -79,3 +79,18 @@ As shown above, the _real price_ corresponds to the active tick—the one that c
 
 **DLMMs** may also change how liquidity acts inside ticks. Basically instead of it being a set conversion in the tick where $Y + X = K$. The price inside a tick may behave as described earlier for constant product AMMs.
 
+### Impermanent Loss
+Earlier defined as
+> The temporary loss in value an LP experiences when the price of tokens in a liquidity pool diverges from their original price due to market movements.
+
+This is one of the more difficult concepts to understand so don't feel discouraged if you have to read this section a couple of times to fully grasp it.
+
+Let's ease into this explanation with an analogy. Take **Ray**. Ray loves trading Solana (SOL). However, Ray has learned that if you don't take profits on the way up, you might not have any profits to take when price comes back down. So here is what Ray does. He invests **100 USDC** into **SOL** when it is at **100 USDC per SOL** and every time **SOL** goes up 10 dollars or **10 USDC** he sells **0.1 SOL**. Here is a table of what that would look like
+
+| Price of SOL | Amount of SOL held | Amount of USDC held |
+| ------------ | ------------------ | ------------------- |
+| 100          | 1                  | 0                   |
+| 110          | 0.9                | 11                  |
+| 120          | 0.8                | 23                  |
+| 130          | 0.7                | 36                  |
+
