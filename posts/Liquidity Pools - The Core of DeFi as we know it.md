@@ -12,7 +12,7 @@ A lot of Decentralized finance (DeFi) protocols or infrastructure can seem very 
 This article is meant to build intuition and build up the understanding to help demystify Automatic Market Makers (AMMs) also known as Liquidity Pools (LPs), the building block of DeFi as we know it. To do that we will cover the following:
 - [Market Makers](#Market%20Makers)
 - [Automatic Market Makers](#Automatic%20Market%20Makers)
-- [How do modern AMMs work?](Liquidity%20Pools%20-%20The%20Core%20of%20DeFi%20as%20we%20know%20it.md#Modern%20AMMs)
+- [How do modern AMMs work?](#Modern%20AMMs)
 - [Impermanent Loss](#Impermanent%20Loss)
 ______
 ### Market Makers
