@@ -1,5 +1,5 @@
 ---
-title: Flashloans - What TradFi can't
+title: Flash Loans - What TradFi can't
 date: 2025-08-09
 author: jstEagle
 tags:
