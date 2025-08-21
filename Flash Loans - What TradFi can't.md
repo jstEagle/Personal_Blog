@@ -36,6 +36,6 @@ First, transactions on multipurpose blockchains like Solana or Ethereum aren't j
 
 Lending protocols like [Marginfi](https://app.marginfi.com/) or [Kamino](https://app.kamino.finance/earn/lend) have on-chain programs that expose instructions like `Borrow` and `Repay` that allow the creation of transactions to start or repay loans. If they allow for it, transactions can be created that contain a `Borrow` instruction followed by some other instructions to trade something or swap something followed by a `Repay` instruction to repay the borrowed amount with interest. If the amount borrowed is available in the pool and the amount repaid is the borrowed amount plus interest then the transaction is executed and a flash loan is performed.
 
+![](TransactionDiagram1.svg)
 
-
-This all only works because the transaction fails if it does not obey the rules of the programs. The node processing the transaction will check to make sure that the repay amount is correct and everything else is valid before committing the transaction to the current block and making it a reality. If the instructions are invalid, the transaction fails and is not added to the current block. Therefore it didn't happen.
+This all only works because the transaction goes through before being committed to the chain. The node processing the transaction will check to make sure that the repay amount is correct and everything else is valid before committing the transaction to the current block and making it a reality. If the instructions are invalid, the transaction fails and is not added to the current block. Therefore it didn't happen.
