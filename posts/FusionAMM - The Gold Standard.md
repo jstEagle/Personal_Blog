@@ -8,7 +8,7 @@ tags:
   - News
 ---
 ### *Investment Disclosure:*
-*This article will be discussing FusionAMM, a protocol created, owned and operated by DeFiTuna. As the author of this article I have personally been involved in the community for over half a year and have made substation investments into their token $TUNA. I do not wish for this breakdown to come across as "shilling" or confirmation bias (that's what X is for). I will not mention anything other than the FusionAMM architecture any further. Any comparisons to other protocols are made solely for context and carry no intent of promotion or criticism.*
+*This article will be discussing FusionAMM, a protocol created, owned and operated by DeFiTuna. As the author of this article I have personally been involved in the community for over half a year and have made substantial investments into their token $TUNA. I do not wish for this breakdown to come across as "shilling" or confirmation bias (that's what X is for). I will not mention anything other than the FusionAMM architecture any further. Any comparisons to other protocols are made solely for context and carry no intent of promotion or criticism.*
 
 This article will assume basic knowledge of how order books and liquidity pools work. I recommend reading [my liquidity pool article](https://www.jsteagle.dev/blog/Liquidity_Pools_-_The_Core_of_DeFi_as_we_know_it) if you aren't familiar with these concepts.
 
