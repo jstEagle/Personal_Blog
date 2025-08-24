@@ -1,6 +1,6 @@
 ---
 title: FusionAMM - The Gold Standard
-date: 2025-08-24
+date: 2025-08-25
 author: jstEagle
 tags:
   - DeFi
