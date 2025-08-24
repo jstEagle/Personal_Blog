@@ -1,6 +1,6 @@
 ---
 title: Flash Loans - What TradFi can't
-date: 2025-08-23
+date: 2025-08-24
 author: jstEagle
 tags:
   - DeFi
