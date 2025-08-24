@@ -29,3 +29,11 @@ Now that we have established that you can't create limit orders on LPs. Lets go 
 
 Doesn't seem right, does it? It looks like a limit order. Quacks like a limit order. But is it actually a limit order? The short answer is: **"No"**. But that doesn't make for a good article. So let's dig deeper into what is actually happening.
 
+![](JupiterLP.svg)
+
+The first clue is the name, "Trigger". The way limit orders execute on LPs is by constantly watching the price. Once it hits the required level, a transaction is sent to execute the swap. Issue is, this is really inefficient. Imagine yourself in Jupiter's position. Thousands of tokens, each one could have one or hundreds of pools. Thousands of users placing millions of orders on different pools at different prices. And every user expects to have their order filled at the price they requested. That creates immense cost for Jupiter. And the worst part is, fills aren't guaranteed. If your order isn't the fastest or not quick enough you may not buy at the price you requested, or you might only buy a portion of the amount you wanted. Also consider other providers of limit orders. When everyone wants to be the first to get the best price, speed is vital, and more speed = more cost.
+
+### The Solution
+Make the limit orders part of the liquidity. Simple. Efficient. Ingenious.
+
+FusionAMM does this by allowing users to place limit orders that the pool keeps track of between [ticks|The smallest price interval in the pool (represented by coloured square in the diagrams)]. This means that in order for price to move past a level, all liquidity and limit orders on that level have to be consumed.
