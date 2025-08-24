@@ -61,3 +61,5 @@ FusionAMM isn’t about reinventing the wheel—it’s about putting better tire
 So if you’re still clinging to spaghetti-routing across 12 different venues, paying a premium just to outbid the next bot in line, go ahead—your bags will thank you (eventually). But for the rest of us? The future looks refreshingly obvious.
 
 After all, the best innovations are the ones that make you wonder: _"Why weren’t we doing this the whole time?"_
+
+I encourage you to take a look at the [official FusionAMM website](https://fusionamm.com/?pool=7VuKeevbvbQQcxz6N4SNLmuq6PYy4AcGQRDssoqo4t65) and their [docs](https://docs.fusionamm.com/)
