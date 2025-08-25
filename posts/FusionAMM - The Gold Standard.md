@@ -50,6 +50,7 @@ By managing orders in this way we get a bunch of benefits:
 - Orders are executed more accurately
 - Execution is cheaper (just a small fee for the user)
 - No risk of partial fills even though price moved past limit order
+
 This finally gives AMMs the final leg up on traditional order books.
 
 ### Advanced Technical Note
