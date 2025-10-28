@@ -1,3 +1,12 @@
+---
+title: Quantum Computing - An Overhyped Science Project (for now)
+date: 2025-10-28
+author: jstEagle
+tags:
+  - Educational
+  - Computers
+  - Physics
+---
 Quantum computing, much like fusion energy is a a field of technological innovation the exhibits a phenomenon where every 2-3 years it get a brief moment in the media limelight.
 
 ![](Pasted%20image%2020251027125246.png)
