@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "title": "Personal Blog",
+  "description": "An earlier personal blog repository for publishing writing and experiments online.",
+  "tags": [
+    "Blog",
+    "Markdown",
+    "Web"
+  ],
+  "featured": false,
+  "order": 180,
+  "links": {
+    "repo": "https://github.com/jstEagle/Personal_Blog"
+  },
+  "images": []
+}
